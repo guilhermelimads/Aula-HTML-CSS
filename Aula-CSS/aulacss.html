@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS na prática</title>
+    <style>
+        h2 {
+            color: green;
+        }
+        .destaque {
+            color: orange;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Testando Prioridade de CSS</h1>
+
+    <h2 style="color: red;">Inline (vermelho)</h2>
+
+    <h2>Interno (Verde)</h2>
+
+    <h2 class="externo">Externo (Roxo)</h2>
+
+    <!--Conflito-->
+    <h2 class="destaque">Quem ganha (inline vs classe vc externo)</h2>
+</body>
+</html>
